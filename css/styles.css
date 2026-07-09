@@ -623,6 +623,12 @@ ul {
     color: #cbd5e0;
 }
 
+.project-image img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
 .project-info {
     padding: 2rem;
     flex-grow: 1;
