@@ -316,6 +316,11 @@ ul {
     z-index: 1;
     border: 8px solid var(--white);
     position: relative;
+    overflow: hidden;
+}
+
+.profile-placeholder .profile-image{
+    max-width: 100%;
 }
 
 @keyframes float {
